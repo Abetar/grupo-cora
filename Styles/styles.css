@@ -1,0 +1,10 @@
+.navbar-custom{
+    background: rgb(99, 183, 99) !important;
+}
+
+
+.nav-link:hover{
+    background-color: rgb(76, 137, 76) !important;
+    border-radius: 5px;
+    color: white !important;
+} 

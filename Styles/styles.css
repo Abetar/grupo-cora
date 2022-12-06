@@ -8,3 +8,25 @@
     border-radius: 5px;
     color: white !important;
 } 
+
+.mainTitle
+{
+    text-align: center;
+}
+
+.footer{
+    background: rgb(99, 183, 99) !important;
+    padding: 10px;
+}
+
+.personal-link{
+    text-decoration: none;
+    color: black;
+}
+
+.personal-link:hover{
+    color: white;
+    background-color: rgb(76, 137, 76) !important;
+    padding: 5px;
+    border-radius: 5px;
+}

@@ -63,3 +63,9 @@
         transform: translate3d(0, 0, 0);
     }
 }
+
+@keyframes rotateZ {
+    to {
+        transform: rotateZ(360deg);
+    }
+}

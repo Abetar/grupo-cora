@@ -4,7 +4,7 @@
 
 
 .nav-link:hover{
-    background-color: rgb(76, 137, 76) !important;
+    background-color: rgb(106, 195, 106) !important;
     border-radius: 5px;
     color: white !important;
 } 
@@ -13,6 +13,10 @@
 {
     text-align: center;
 }
+
+.rotate {
+    animation: rotateZ 2s;
+  }
 
 .footer{
     background: rgb(99, 183, 99) !important;
@@ -29,4 +33,12 @@
     background-color: rgb(76, 137, 76) !important;
     padding: 5px;
     border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 320px)
+{
+    .paddingSmall{
+        padding-top: 10px;
+    }
 }
